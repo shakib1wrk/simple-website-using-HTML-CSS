@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+
+a:hover{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    width: 50px;
+    height: 10px;
+}
+
+span{
+    color: #F15B22;
+}
+nav>ul{
+    display: flex;
+    
+
+}
+
+nav li{
+    list-style: none;
+    padding: 10px;
+    
+}
+
+.nav-title{
+    color: black;
+    font-display: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.btn-primary{
+    color: white;
+    background-color: #F15B22;
+    border: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.banner{
+    background: url(images/banner/banner3.png);
+    width: 1600px;
+    height: 808px;
+    text-align: right;
+    
+}
+
+.banner-title{
+    font-size: 70px;
+}
+
+.banner-greeting{
+    
+    text-align: right;
+    padding-top: 216px;
+    padding-right: 200px;
+    color: white;
+    /* width: 525px; */
+    height: 228px;
+    /* font-size: 70px; */
+    
+}
+
+.banner-greeting .greeting-description, #header-button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.person-info{
+    
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    padding: 100px;
+
+}
+
+.person-title{
+    /* width: 200px */
+    /* height: 50px; */
+    font-size: 40px
+    /* font-size: 50px; */
+}
+
+.person-description{
+    /* max-width: 400px; */
+    
+}
+
+.person-description {
+    max-width: 400px;
+    padding-top: 10px;
+}
+
+.person-all-description{
+    margin-left: 100px;
+    padding-left: 150px;
+
+}
+
+.what-he-do{
+    margin-left: 25px;
+    padding-top: 10px;
+}
+
+.plan-title{
+    /* align-items: center; */
+    /* text-align: center;
+    align-items: center; */
+}
+
+
+.plan-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.plan{
+    /* display: flex; */
+    align-items: center;
+    margin-left: 70px;
+    padding: 10px;
+}
+
+.plan-section{
+    align-items: center;
+    text-align: center;
+    padding-left: 300px;
+    padding-bottom: 40px;
+    
+    
+}
+
+.images-down{
+    background: url(images/gradient3.png)
+
+
+
+}
+
+.footer-main{
+    display: flex;
+    width: 1600px;
+    /* height: 577px; */
+    background-color: black;
+    color: white;
+    padding: 130px;
+    
+    
+
+}
+
+.footer-column{
+
+    width: 50%;
+    
+}
+
+.form-title{
+    font-weight: 700;
+}
+.email-bar{
+    width: 300px;
+    height: 70px;
+}
